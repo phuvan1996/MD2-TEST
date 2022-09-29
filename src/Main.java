@@ -18,12 +18,12 @@ public class Main {
          switch (choice){
              case 1:
                  for (int i = 0; i < array.length; i++) {
-                     System.out.printf("Gia tri cua phan tu %d la: ",i);
+                     System.out.printf(" nhap gia tri phan tu cua mang : ",i);
                      array[i] = Integer.parseInt(scanner.nextLine());
                  }
                  break;
              case 2:
-                 System.out.println("Mang vua khoi tao: ");
+                 System.out.println("phan tu cua mang la: ");
                  for (int i = 0; i < array.length; i++) {
                      System.out.printf("%d\t",array[i]);
                  }
