@@ -83,6 +83,7 @@ public class Main {
                  break;
              case 7:
                  System.exit(0);
+                 break;
          }
      }while (true);
     }
