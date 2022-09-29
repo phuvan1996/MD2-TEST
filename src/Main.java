@@ -40,7 +40,7 @@ public class Main {
                          }
                      }
                      if (!check) {
-                         System.out.printf("%d la so nguyen to\n", array[i]);
+                         System.out.printf("so nguyen to la :%d\n", array[i]);
                      }
                  }
                  continue;
@@ -53,7 +53,7 @@ public class Main {
                      if (max<array[i]){
                          max = array[i];
                      }
-                 }System.out.printf("gia tri lon nhat cua mang la \n",max);
+                 }System.out.printf("gia tri lon nhat cua mang la:%d\n",max);
                  break;
              case 5:
                  for (int i = 0; i < array.length; i++) {
@@ -63,7 +63,7 @@ public class Main {
                      if (min>array[i]){
                          min= array[i];
                      }
-                 }System.out.printf("gia tri nho nhat la :",min);
+                 }System.out.printf("gia tri nho nhat la:%d\n",min);
                  break;
              case 6:
                  for (int i = 0; i < array.length-1; i++) {
